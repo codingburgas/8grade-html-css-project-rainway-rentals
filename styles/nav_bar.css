@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(58, 58, 58);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+header {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px 5px 20px 5px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    min-width: 100%;
+}
+ 
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+ 
+.nav_list {
+    list-style: none;
+}
+ 
+.nav_list, li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+.nav_list, li, a {
+    transition: all, 0.3s ease 0s;
+}
+ 
+.nav_list, li, a:hover {
+    transition: all, 0.3s ease 0s;
+    color: #0088a9;
+}
+ 
+.log_in {
+    padding: 15px 30px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all, 0.3s ease 0s;
+    font-size: larger;
+    margin: 10px;
+}
+ 
+.log_in:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+    transform: scale(1.07);
+}
+ 
+.nav_bar_logo {
+    max-width: 500px;
+    max-height: 125px;
+}

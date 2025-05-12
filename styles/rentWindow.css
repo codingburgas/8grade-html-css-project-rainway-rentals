@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(41, 41, 41);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(36, 36, 36);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav_bar_logo {
+    max-height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #e6b800;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.log_in {
+    background-color: #1e40af;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.log_in:hover {
+    background-color: #163593;
+}
+
+.rental-container {
+    background-color: #f0f0f0;
+    color: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.rental-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.rental-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.rental-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.rental-form label {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.rental-form input[type="text"],
+.rental-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.rental-form button {
+    background-color: #1e40af;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.rental-form button:hover {
+    background-color: #163593;
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .form {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .rental-container{
+        width: 95%;
+    }
+}

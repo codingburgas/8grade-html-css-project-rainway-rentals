@@ -1,76 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Compact Cars | Rainway Rentals</title>
-        <link href="../styles/nav_bar.css" rel="stylesheet">
-        <link href="../styles/footer.css" rel="stylesheet" >
-        <link href="../styles/compact-cars.css" rel="stylesheet">
-      </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact Cars | Rainway Rentals</title>
+    <link href="../styles/nav_bar.css" rel="stylesheet">
+    <link href="../styles/footer.css" rel="stylesheet">
+    <link href="../styles/compact-cars.css" rel="stylesheet">
+    <style>
+      .rent-btn {
+        display: inline-block;
+        background-color: #1e40af;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 14px;
+        transition: background-color 0.3s;
+        margin-top: 10px; /* Added margin to separate button from text */
+      }
+
+      .rent-btn:hover {
+        background-color: #163593;
+      }
+    </style>
+</head>
 <body>
-  <header>
-    <img src="../media/logo.jpg" alt="Logo" class="nav_bar_logo">
-    <nav>
-      <ul class="nav_list">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="review.html">Leave Review</a></li>
-      </ul>
-    </nav>
-    <div class="form">
-      <a href="signUp.html"><button class="log_in">Sign Up</button></a>
-      <a href="login.html"><button class="log_in">Log in</button></a>
-    </div>
-  </header>
-  <section class="vehicles">
-    <h1 class="header_vehicles">Browse Compact Cars</h1>
-    <div class="vehicles-container">
-      <div class="vehicle-grid">
-        <div class="row">
-          <div class="vehicle-card">
-            <img src="hondaCivic.jpeg" alt="Hunda Ciwic" width="250" height="170">
-            <h4>Hunda Ciwic</h4>
-            <p>A top-selling compact with great fuel economy and sporty options.</p>
-          </div>
-          <div class="vehicle-card">
-            <img src="day-exterior-03_M28.png" alt="Toyoyo Carola" width="250" height="170">
-            <h4>Toyoyo Carola</h4>
-            <p>Known for reliability, efficiency, and affordability.</p>
-          </div>
+    <header>
+        <img src="../media/logo.jpg" alt="Logo" class="nav_bar_logo">
+        <nav>
+            <ul class="nav_list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="review.html">Leave Review</a></li>
+            </ul>
+        </nav>
+        <div class="form">
+            <a href="signUp.html"><button class="log_in">Sign Up</button></a>
+            <a href="login.html"><button class="log_in">Log in</button></a>
         </div>
-        <div class="row">
-          <div class="vehicle-card">
-            <img src="golf.webp" alt="Volksvagen Gold" width="250" height="170">
-            <h4>Volksvagen Gold</h4>
-            <p>A versatile hatchback with European performance and design.</p>
-          </div>
-          <div class="vehicle-card">
-            <img src="#" alt="Masda7">
-            <h4>Masda7</h4>
-            <p>A stylish and fun-to-drive compact with upscale features.</p>
-          </div>
+    </header>
+
+    <section class="vehicles">
+        <h1 class="header_vehicles">Browse Compact Cars</h1>
+        <div class="vehicles-container">
+            <div class="vehicle-grid">
+                <div class="row">
+                    <div class="vehicle-card">
+                        <img src="../media/hondaCivic.jpg" alt="Hunda Ciwic">
+                        <h4>Hunda Ciwic</h4>
+                        <p>A top-selling compact with great fuel economy and sporty options.</p>
+                        <a href="rentWindow.html" class="rent-btn">Rent Now</a>
+                    </div>
+                    <div class="vehicle-card">
+                        <img src="../media/Toyota Corolla.webp" alt="Toyoyo Carola">
+                        <h4>Toyoyo Carola</h4>
+                        <p>Known for reliability, efficiency, and affordability.</p>
+                        <a href="rentWindow.html" class="rent-btn">Rent Now</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="vehicle-card">
+                        <img src="../media/olkswagen GolfSubaru Impreza.webp" alt="Volksvagen Gold">
+                        <h4>Volksvagen Gold</h4>
+                        <p>A versatile hatchback with European performance and design.</p>
+                        <a href="rentWindow.html" class="rent-btn">Rent Now</a>
+                    </div>
+                    <div class="vehicle-card">
+                        <img src="../media/Mazda3.jpg" alt="Masda7">
+                        <h4>Masda7</h4>
+                        <p>A stylish and fun-to-drive compact with upscale features.</p>
+                        <a href="rentWindow.html" class="rent-btn">Rent Now</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="vehicle-card">
+                        <img src="../media/hyundaiElantra.jpg" alt="Hiundai Elantral">
+                        <h4>Hiundai Elantral</h4>
+                        <p>Offers great value with modern tech and hybrid options.</p>
+                        <a href="rentWindow.html" class="rent-btn">Rent Now</a>
+                    </div>
+                    <div class="vehicle-card">
+                        <img src="../media/subaru impreza.png" alt="Subara Imprezal">
+                        <h4>Subara Imprezal</h4>
+                        <p>The only compact in its class with standard all-wheel drive.</p>
+                        <a href="rentWindow.html" class="rent-btn">Rent Now</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="row">
-          <div class="vehicle-card">
-            <img src="#" alt="Hiundai Elantral">
-            <h4>Hiundai Elantral</h4>
-            <p>Offers great value with modern tech and hybrid options.</p>
-          </div>
-          <div class="vehicle-card">
-            <img src="" alt="Subara Imprezal">
-            <h4>Subara Imprezal</h4>
-            <p>The only compact in its class with standard all-wheel drive.</p>
-          </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Rainway Rentals. All rights reserved.</p>
         </div>
-      </div>
-    </div>
-  </section>
-  
-  <footer>
-  <div class="footer-container">
-    <p>&copy; 2025 Rainway Rentals. All rights reserved.</p>
-  </div>
-  </footer>
+    </footer>
 </body>
 </html>

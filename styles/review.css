@@ -55,7 +55,8 @@ i {
 }
 
 .companyLogo {
-    height: 50px;
+    max-width: 500px;
+    max-height: 125px;
 }
 
 .tagLine {

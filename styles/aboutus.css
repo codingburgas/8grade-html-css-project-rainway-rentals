@@ -31,20 +31,8 @@
   header h1 {
     font-size: 1.8rem;
   }
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  nav a {
-    color: #cbd6e2;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  nav a.active,
-  nav a:hover {
-    color: #ffd700;
-  }
+  
+ 
   main {
     flex: 1;
     display: flex;
@@ -58,7 +46,7 @@
     border-radius: 8px;
     max-width: 900px;
     width: 100%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   }
   .about h2 {
     color: #1e2a38;
